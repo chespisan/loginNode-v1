@@ -1,0 +1,14 @@
+guia-login-node
+
+//Modulos a utilizar
+
+* express
+* express-session -> para  las sessiones
+* cookie-parser -> controlar el estado de los usuarios
+* connect-flash -> mensajes que se almacenan en el navegador y poder mandarlos en pantalla
+* ejs
+* bcrypt-nodejs -> aplicar algoritm que cifra los datos, psrs seguridad de nuestrp pass e info
+* body-parser -> entender los datos del navigador al servidor
+* mongoose -> conectarnos a mongo db 
+* morgan -> reguistrar todas las peticiones http y mostrarlas x consola
+* passport -> para autotinficar usuarios de forma local o en redes sosiales  
